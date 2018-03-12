@@ -1,0 +1,14 @@
+<block wx:for="{{indexArrar}}">
+  <view class="content" data-id="{{index}}"  bindtap="detailed">
+    <view class="warp">
+      <view class="title">{{item.title}}</view>
+    <text class="text">{{item.text}}</text>
+
+    <view class="img-box" wx:if="{{item.show}}">
+      <image src="/images/ys_01.jpg"></image>
+      <image src="/images/ys_02.jpg"></image>
+      <image src="/images/ys_03.jpg"></image>
+    </view>
+    </view>
+</view>
+</block>

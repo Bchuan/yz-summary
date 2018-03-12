@@ -1,0 +1,55 @@
+.content{
+padding: 0rpx 35rpx;
+}
+
+.content .warp{
+  display: flex;
+  
+  justify-content: space-between;
+  margin-top: 60rpx;
+  font-size: 36rpx;
+  color: #3a3a3a;
+  padding-bottom: 70rpx;
+  border-bottom: 1px dashed #ccc;
+}
+.content .left text{
+  display: block;
+  margin-top: 20rpx;
+}
+.content .left .dv{
+  font-size: 26rpx;
+  color: #666;
+}
+.content .right image{
+  width: 104rpx;
+  height: 110rpx;
+}
+
+.page01{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25rpx 0rpx;
+}
+.page01 .icon{
+  width: 26rpx;
+  height: 26rpx;
+}
+.page01 .text{
+  font-size: 28rpx;
+  width: 100%;
+  padding: 0rpx 10rpx;
+}
+
+.page02{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15rpx;
+}
+
+.page02 image{
+  width: 222rpx;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+}

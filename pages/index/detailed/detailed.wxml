@@ -1,0 +1,44 @@
+<view class="content">
+  <view class="warp">
+    <view class="left">
+     <view class="title">{{deitel.title}}</view>
+     <text class="city">{{deitel.city}}</text>
+     <text class="dv">亲子.孕产护理</text>
+    </view>
+
+    <view class="right">
+      <image src="/images/logo.png"></image>
+    </view>
+  </view>
+
+  <view class="page01">
+    <image class="icon" src="/images/icon_map.png"></image>
+    <text bindtap="openMap" class="text">{{deitel.dz}}</text>
+    <image class="icon" src="/images/icon_jt.png"></image>
+  </view>
+
+  <view class="page01">
+    <image class="icon" src="/images/icon_clock.png"></image>
+    <text class="text">{{deitel.time}}</text>
+    
+  </view>
+
+  <view class="page01">
+    <image class="icon" src="/images/icon_tel.png"></image>
+    <text bindtap="call" class="text">{{deitel.tel}}</text>
+    <image class="icon" src="/images/icon_jt.png"></image>
+  </view>
+
+   <view class="page01">
+    <image class="icon" src="/images/icon_ip.png"></image>
+    <text class="text">门店照片</text>
+    
+  </view>
+
+  <view class="page02">
+     <block wx:for="{{imgSrc.imgPath}}">
+     <image bindtap="preImg" data-idx="{{index}}" src="{{item}}"></image>
+     </block>    
+  </view>
+
+</view>

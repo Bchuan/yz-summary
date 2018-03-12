@@ -1,0 +1,27 @@
+.content{
+  margin-top: 50rpx;
+  padding: 0rpx 40rpx;
+  font-family: "微软雅黑";
+}
+.content .warp{
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 40rpx;
+}
+.content .title{
+  font-size: 36rpx;
+  color: #3a3a3a;
+}
+.content .text{
+  color: #939393;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.content .img-box{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.content .img-box image{
+  height: 220rpx;
+  width: 220rpx;
+}
